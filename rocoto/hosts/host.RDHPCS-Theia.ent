@@ -1,0 +1,19 @@
+<!ENTITY PROC_MAKE_GRID_OROG    "1:ppn=24">
+<!ENTITY PROC_GET_GFS_FILES     "1:ppn=1">
+<!ENTITY PROC_MAKE_SURF_IC_BC0  "1:ppn=24">
+<!ENTITY PROC_MAKE_BC1_TO_BCEND "1:ppn=24">
+<!ENTITY PROC_STAGE             "1:ppn=1">
+<!ENTITY PROC_RUN_FV3SAR        "35:ppn=24">
+<!ENTITY PROC_POST              "2:ppn=24">
+<!ENTITY NCL_MAIN_PROC          "16">
+<!ENTITY NCL_PROC               "1">
+
+<!ENTITY RSRC_MAKE_GRID_OROG    "<walltime>00:15:00</walltime>">
+<!ENTITY RSRC_GET_GFS_FILES     "<walltime>01:00:00</walltime>">
+<!ENTITY RSRC_MAKE_SURF_IC_BC0  "<walltime>00:10:00</walltime>">
+<!ENTITY RSRC_MAKE_BC1_TO_BCEND "<walltime>00:50:00</walltime>">
+<!ENTITY RSRC_STAGE             "<walltime>00:10:00</walltime>">
+<!ENTITY RSRC_RUN_FV3SAR        "<walltime>07:30:00</walltime>">
+<!ENTITY RSRC_POST              "<walltime>00:30:00</walltime>">
+<!ENTITY NCL_MAIN_RESOURCES     "<walltime>02:30:00</walltime><memory>58G</memory>">
+<!ENTITY NCL_RESOURCES          "<walltime>01:00:00</walltime><memory>2G</memory>">

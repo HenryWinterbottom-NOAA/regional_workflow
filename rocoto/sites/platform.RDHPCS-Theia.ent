@@ -1,0 +1,6 @@
+<!ENTITY ACCOUNT          "gsd-fv3-test">
+<!ENTITY SCHED            "slurm"> 
+<!ENTITY QUEUE_DEFAULT    "batch">
+<!ENTITY QUEUE_HPSS       "service">
+<!ENTITY QUEUE_RUN_FV3SAR "batch">
+<!ENTITY SYSTEM_ID "SAR-FV3">
